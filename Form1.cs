@@ -1,4 +1,50 @@
-﻿using System;
+ 
+
+باستخدام  النظام . المجموعات . عام .
+باستخدام  النظام . نموذج ؛
+باستخدام  النظام . البيانات ؛
+باستخدام  النظام . الرسم ؛
+باستخدام  النظام . لينك .
+باستخدام  النظام . نص ؛
+باستخدام  النظام . خيوط . المهام ؛
+باستخدام  النظام . نوافذ . أشكال .
+باستخدام  النظام . وسائل الإعلام ؛
+
+مساحة الاسم  Door_sensor
+{
+     فئة جزئية  عامة Form1 : Form 
+    {
+        العامة  Form1 ()
+        {
+            InitializeComponent () ،
+        }
+       
+         open_door باطل ()
+        {
+            إذا ( pnl_right . العرض  ==  0 )
+            {
+                pnl_right . العرض  =  279 ؛
+                
+
+                btn_lamp . إخفاء () ؛
+                لوحة 1 . BackColor  =  اللون . أخضر ؛
+
+            }
+            
+
+        }   // هذا المرح للباب المفتوح
+
+        باطل  close_door ()
+        {
+            إذا ( pnl_right . العرض  ! =  0 )
+            {
+          
+                pnl_right . العرض  =  0 ؛
+                لوحة 1 . BackColor  =  اللون . أحمر ؛
+
+
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
